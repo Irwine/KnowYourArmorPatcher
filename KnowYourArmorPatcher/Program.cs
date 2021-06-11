@@ -67,12 +67,12 @@ namespace KnowYourArmorPatcher
             {
                 if (armorRulesJson[recordEDID]!["material"] != null)
                 {
-                    description.Append("Material: " + armorRulesJson[recordEDID]!["material"]!.ToString());
+                    description.Append("Matériaux : " + armorRulesJson[recordEDID]!["material"]!.ToString());
                 }
                 if (armorRulesJson[recordEDID]!["construction"] != null)
                 {
                     if (description.Length != 0) description.Append("; ");
-                    description.Append("Construction: " + armorRulesJson[recordEDID]!["construction"]);
+                    description.Append("Forme : " + armorRulesJson[recordEDID]!["construction"]);
                 }
                 if (description.Length != 0) description.Append(".");
 
@@ -143,20 +143,20 @@ namespace KnowYourArmorPatcher
                         axe *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         earth *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    QuickAppend(description, "Fire", fire);
-                    QuickAppend(description, "Frost", frost);
-                    QuickAppend(description, "Shock", shock);
-                    QuickAppend(description, "Blade", blade);
-                    QuickAppend(description, "Axe", axe);
-                    QuickAppend(description, "Blunt", blunt);
-                    QuickAppend(description, "Arrows", arrows);
+                    QuickAppend(description, "Feu", fire);
+                    QuickAppend(description, "Glace", frost);
+                    QuickAppend(description, "Foudre", shock);
+                    QuickAppend(description, "Tranchant", blade);
+                    QuickAppend(description, "Hache", axe);
+                    QuickAppend(description, "Contondant", blunt);
+                    QuickAppend(description, "Flèches", arrows);
 
                     // If load order contains Know Your Elements, write descriptions for water + wind + earth
                     if (state.LoadOrder.ContainsKey(ModKey.FromNameAndExtension("Know Your Elements.esp")))
                     {
-                        QuickAppend(description, "Water", water);
-                        QuickAppend(description, "Wind", wind);
-                        QuickAppend(description, "Earth", earth);
+                        QuickAppend(description, "Eau", water);
+                        QuickAppend(description, "Air", wind);
+                        QuickAppend(description, "Terre", earth);
                     }
 
                     // Remove last char if ending with ,
