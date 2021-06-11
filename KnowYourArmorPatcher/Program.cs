@@ -67,7 +67,7 @@ namespace KnowYourArmorPatcher
             {
                 if (armorRulesJson[recordEDID]!["material"] != null)
                 {
-                    description.Append("Matériaux : " + armorRulesJson[recordEDID]!["material"]!.ToString());
+                    description.Append("Mat'\u00E9'riaux : " + armorRulesJson[recordEDID]!["material"]!.ToString());
                 }
                 if (armorRulesJson[recordEDID]!["construction"] != null)
                 {
