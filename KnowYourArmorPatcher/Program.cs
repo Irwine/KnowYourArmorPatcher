@@ -188,6 +188,8 @@ namespace KnowYourArmorPatcher
             if (!requiredFiles.SequenceEqual(foundFiles))
                 throw new Exception("Missing required files! Make sure to copy all files over when installing the patcher, and don't run it from within an archive.");
 
+            Console.WriteLine("Fichier charge : " + requiredFiles[0]);
+            
             var armorRulesJson = JObject.Parse(File.ReadAllText(requiredFiles[0]));
             var miscJson = JObject.Parse(File.ReadAllText(requiredFiles[1]));
             //var settingsJson = JObject.Parse(File.ReadAllText(requiredFiles[2]));
