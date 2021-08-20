@@ -163,7 +163,7 @@ namespace KnowYourArmorPatcher
                     if (description[description.Length - 1] == ',') description[description.Length - 1] = '.';
                 }
             }
-            return description.ToString();
+            return Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(description.ToString()));
         }
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
@@ -196,8 +196,8 @@ namespace KnowYourArmorPatcher
             List<string> armorRaces = GetFromJson("armor_races", miscJson).ToList();
             List<string> ignoredArmors = GetFromJson("ignored_armors", miscJson).ToList();
 
-            float effectIntensity = _settings.Value.EffectIntensity;
-            bool patchArmorDescriptions = _settings.Value.PatchArmorDescriptions;
+            float effectIntensity = _settings.Value.IntensiteDeLEffet;
+            bool patchArmorDescriptions = _settings.Value.ModifierLesDescriptions;
 
             Console.WriteLine("*** DETECTED SETTINGS ***");
             Console.WriteLine("patch_armor_descriptions: " + patchArmorDescriptions);
