@@ -163,7 +163,7 @@ namespace KnowYourArmorPatcher
                     if (description[description.Length - 1] == ',') description[description.Length - 1] = '.';
                 }
             }
-            return description.ToString();
+            return Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(description.ToString()));
         }
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
@@ -188,6 +188,8 @@ namespace KnowYourArmorPatcher
             if (!requiredFiles.SequenceEqual(foundFiles))
                 throw new Exception("Missing required files! Make sure to copy all files over when installing the patcher, and don't run it from within an archive.");
 
+            Console.WriteLine("Fichier charge : " + requiredFiles[0]);
+            
             var armorRulesJson = JObject.Parse(File.ReadAllText(requiredFiles[0]));
             var miscJson = JObject.Parse(File.ReadAllText(requiredFiles[1]));
             //var settingsJson = JObject.Parse(File.ReadAllText(requiredFiles[2]));
@@ -196,8 +198,8 @@ namespace KnowYourArmorPatcher
             List<string> armorRaces = GetFromJson("armor_races", miscJson).ToList();
             List<string> ignoredArmors = GetFromJson("ignored_armors", miscJson).ToList();
 
-            float effectIntensity = _settings.Value.EffectIntensity;
-            bool patchArmorDescriptions = _settings.Value.PatchArmorDescriptions;
+            float effectIntensity = _settings.Value.IntensiteDeLEffet;
+            bool patchArmorDescriptions = _settings.Value.ModifierLesDescriptions;
 
             Console.WriteLine("*** DETECTED SETTINGS ***");
             Console.WriteLine("patch_armor_descriptions: " + patchArmorDescriptions);
