@@ -44,15 +44,15 @@ namespace KnowYourArmorPatcher
 
         private static readonly Dictionary<string, IFormLinkGetter<IKeywordGetter>> armorKeywords = new()
         {
-            { "full", KnowYourEnemy.Keyword.kye_armor_full },
-            { "warm", KnowYourEnemy.Keyword.kye_armor_warm },
-            { "leathery", KnowYourEnemy.Keyword.kye_armor_leathery },
-            { "brittle", KnowYourEnemy.Keyword.kye_armor_brittle },
-            { "nonconductive", KnowYourEnemy.Keyword.kye_armor_nonconductive },
-            { "thick", KnowYourEnemy.Keyword.kye_armor_thick },
-            { "metal", KnowYourEnemy.Keyword.kye_armor_metal },
-            { "layered", KnowYourEnemy.Keyword.kye_armor_layered },
-            { "deep", KnowYourEnemy.Keyword.kye_armor_deep },
+            { "Complète", KnowYourEnemy.Keyword.kye_armor_full },
+            { "Réchauffante", KnowYourEnemy.Keyword.kye_armor_warm },
+            { "Cuir", KnowYourEnemy.Keyword.kye_armor_leathery },
+            { "Fragile", KnowYourEnemy.Keyword.kye_armor_brittle },
+            { "Non-conducteur", KnowYourEnemy.Keyword.kye_armor_nonconductive },
+            { "Épaisse", KnowYourEnemy.Keyword.kye_armor_thick },
+            { "Métallique", KnowYourEnemy.Keyword.kye_armor_metal },
+            { "En couches", KnowYourEnemy.Keyword.kye_armor_layered },
+            { "Profonde", KnowYourEnemy.Keyword.kye_armor_deep },
         };
 
         private static void QuickAppend(StringBuilder description, string name, float num)
@@ -90,7 +90,7 @@ namespace KnowYourArmorPatcher
                         wind = 1;
 
                     string[] keywords = ((JArray)(armorRulesJson[recordEDID]!["keywords"]!)).ToObject<string[]>()!;
-                    if (keywords.Contains("warm"))
+                    if (keywords.Contains("Réchauffante"))
                     {
                         arrows *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         frost *= AdjustEffectMagnitude(0.5f, effectIntensity);
@@ -98,33 +98,33 @@ namespace KnowYourArmorPatcher
                         wind *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
 
-                    if (keywords.Contains("leathery"))
+                    if (keywords.Contains("Cuir"))
                     {
                         arrows *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         fire *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         wind *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         water *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("brittle"))
+                    if (keywords.Contains("Fragile"))
                     {
                         blunt *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         water *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         earth *= AdjustEffectMagnitude(1.25f, effectIntensity);
                     }
-                    if (keywords.Contains("nonconductive"))
+                    if (keywords.Contains("Non-conducteur"))
                     {
                         shock *= AdjustEffectMagnitude(0.25f, effectIntensity);
                         fire *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         frost *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         water *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("thick"))
+                    if (keywords.Contains("Épaisse"))
                     {
                         arrows *= AdjustEffectMagnitude(0.5f, effectIntensity);
                         blade *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         wind *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("metal"))
+                    if (keywords.Contains("Métallique"))
                     {
                         arrows *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         blade *= AdjustEffectMagnitude(0.75f, effectIntensity);
@@ -132,12 +132,12 @@ namespace KnowYourArmorPatcher
                         earth *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         water *= AdjustEffectMagnitude(1.25f, effectIntensity);
                     }
-                    if (keywords.Contains("layered"))
+                    if (keywords.Contains("En couches"))
                     {
                         arrows *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         wind *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("deep"))
+                    if (keywords.Contains("Profonde"))
                     {
                         blunt *= AdjustEffectMagnitude(0.5f, effectIntensity);
                         axe *= AdjustEffectMagnitude(0.75f, effectIntensity);
