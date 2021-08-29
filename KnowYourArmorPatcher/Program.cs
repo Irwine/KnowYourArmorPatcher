@@ -196,8 +196,8 @@ namespace KnowYourArmorPatcher
             List<string> armorRaces = GetFromJson("armor_races", miscJson).ToList();
             List<string> ignoredArmors = GetFromJson("ignored_armors", miscJson).ToList();
 
-            float IntensiteDeLEffet = _settings.Value.EffectIntensity;
-            bool ModifierLesDescriptions = _settings.Value.PatchArmorDescriptions;
+            float IntensiteDeLEffet = _settings.Value.IntensiteDeLEffet;
+            bool ModifierLesDescriptions = _settings.Value.ModifierLesDescriptions;
 
             Console.WriteLine("*** DETECTED SETTINGS ***");
             Console.WriteLine("patch_armor_descriptions: " + ModifierLesDescriptions);
