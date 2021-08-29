@@ -1,930 +1,930 @@
 {
 	"FFPAAPaladinCuirass": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
 	"FFPAAPaladinCuirassNOENCH": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassBlack": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassWhite": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassBlackNOENCH": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassWhiteNOENCH": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassL": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassNOENCHL": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassBlackL": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassWhiteL": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassBlackNOENCHL": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassWhiteNOENCHL": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
     "FFPAAPaladinCuirassNPC": {
-		"keywords": ["Non-conducteur", "Fragile", "Profonde"],
+		"keywords": ["nonconductive", "brittle", "deep"],
 		"material": "Verre",
 		"construction": "Profonde"
 	},
 	"DBArmorWorn": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
     "DBArmorWornPlayable": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
     "DBArmorSP": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
     "DBArmorShortSleeve": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
     "DBArmor": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
 	"ArmorThievesGuildLeaderCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorThievesGuildLeaderCuirassMercer": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorLinweCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorSummersetShadowsGuildCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorThievesGuildKarliahCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorTsunCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorThievesGuildCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "DLC2TGArmorVariantCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
         "ArmorThievesGuildVariantCuirass": {
-		"keywords": ["Cuir"],
+		"keywords": ["leathery"],
 		"material": "Cuir"
 	},
 	"ArmorNightingale": {
-        "keywords": ["Cuir", "En couches"],
+        "keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "ArmorGuardCuirassSolitude": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassFalkreath": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassHjaalmarch": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassMarkarth": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassRiften": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassThePale": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassWhiterun": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
     	"material": "Cuir"
     },
     "ArmorGuardCuirassWinterhold": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "DLC2WordBurnedInChestAfter": {
-    	"keywords": ["Réchauffante", "Épaisse"],
+    	"keywords": ["warm", "thick"],
     	"material": "Fourrure",
     	"construction": "Épaisse"
     },
     "DLC2WordBurnedInChest": {
-    	"keywords": ["Réchauffante", "Épaisse"],
+    	"keywords": ["warm", "thick"],
     	"material": "Fourrure",
 		"construction": "Épaisse"
 	},
     "DLC2HMKillsMiraak": {
-    	"keywords": ["Réchauffante", "Épaisse"],
+    	"keywords": ["warm", "thick"],
         "material": "Fourrure",
         "construction": "Épaisse"
     },
     "ArmorBanditCuirass": {
-    	"keywords": ["Réchauffante"],
+    	"keywords": ["warm"],
     	"material": "Fourrure"
     },
     "ArmorBanditCuirass1": {
-    	"keywords": ["Réchauffante"],
+    	"keywords": ["warm"],
     	"material": "Fourrure"
     },
     "ArmorBanditCuirass2": {
-    	"keywords": ["Réchauffante"],
+    	"keywords": ["warm"],
     	"material": "Fourrure"
     },
     "ArmorBanditCuirass3": {
-    	"keywords": ["Réchauffante"],
+    	"keywords": ["warm"],
     	"material": "Fourrure"
     },
     "IAFalkreathCuirass": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "IARedguardKnightHeavyCuirass": {
-    	"keywords": ["Métallique"],
+    	"keywords": ["metal"],
         "material": "Métal"
     },
     "IARedguardKnightLightCuirass": {
-        "keywords": ["Métallique"],
+        "keywords": ["metal"],
         "material": "Métal"
     },
     "IAVagabondCrimsonCuirass": {
-    	"keywords": ["Réchauffante", "Cuir"],
+    	"keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "IAVagabondCuirCuirass": {
-    	"keywords": ["Réchauffante", "Cuir"],
+    	"keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "IAVagabondDuskCuirass": {
-    	"keywords": ["Réchauffante", "Cuir"],
+    	"keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "IAVanguardPlateCuirass": {
-    	"keywords": ["Métallique", "Épaisse"],
+    	"keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "IAWarchiefHeavyBulwark": {
-    	"keywords": ["Réchauffante", "Métallique", "En couches"],
+    	"keywords": ["warm", "metal", "layered"],
         "material": "Métal/Fourrure",
         "construction": "En couches"
     },
     "IAWarchiefLightBulwark": {
-    	"keywords": ["Réchauffante", "Métallique", "En couches"],
+    	"keywords": ["warm", "metal", "layered"],
         "material": "Métal/Fourrure",
         "construction": "En couches"
     },
     "IAHedgeKnightCuirass": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "IAEinherjarPlateLightCuirass": {
-    	"keywords": ["Réchauffante", "Métallique", "Profonde"],
+    	"keywords": ["warm", "metal", "deep"],
         "material": "Métal/Fourrure",
         "construction": "Profonde"
     },
     "IAEinherjarPlateDarkCuirass": {
-    	"keywords": ["Réchauffante", "Métallique", "Profonde"],
+    	"keywords": ["warm", "metal", "deep"],
         "material": "Métal/Fourrure",
         "construction": "Profonde"
     },
     "IAHunterCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IAEinherjarBrigandineDarkCuirass": {
-    	"keywords": ["Réchauffante", "Cuir", "En couches"],
+    	"keywords": ["warm", "leathery", "layered"],
         "material": "Cuir/Fourrure",
         "construction": "En couches"
     },
     "IAEinherjarBrigandineLightCuirass": {
-    	"keywords": ["Réchauffante", "Cuir", "En couches"],
+    	"keywords": ["warm", "leathery", "layered"],
         "material": "Cuir/Fourrure",
         "construction": "En couches"
     },
     "IANordMailLightShirt": {
-    	"keywords": ["Métallique"],
+    	"keywords": ["metal"],
         "material": "Métal"
     },
     "IANordMailHeavyHauberk": {
-    	"keywords": ["Métallique"],
+    	"keywords": ["metal"],
         "material": "Métal"
     },
     "IAAkaviriSamuraiCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"],
+    	"keywords": ["nonconductive", "brittle", "layered"],
         "material": "Verre",
         "construction": "En couches"
     },
     "IADragonhideHeavyRobe": {
-    	"keywords": ["Fragile", "Non-conducteur", "Épaisse"],
+    	"keywords": ["brittle", "nonconductive", "thick"],
         "material": "Os",
         "construction": "Épaisse"
     },
     "IADragonhideLRobe": {
-    	"keywords": ["Fragile", "Non-conducteur", "Épaisse"],
+    	"keywords": ["brittle", "nonconductive", "thick"],
         "material": "Os",
         "construction": "Épaisse"
     },
     "IADragonhideURobe": {
-    	"keywords": ["Fragile", "Non-conducteur", "Épaisse"],
+    	"keywords": ["brittle", "nonconductive", "thick"],
         "material": "Os",
         "construction": "Épaisse"
     },
     "IAMercenaryCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IAHeroicImperialCuirass": {
-    	"keywords": ["Métallique", "En couches"],
+    	"keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "IADwarvenMageHRobe": {
-    	"keywords": ["Métallique", "Cuir"],
+    	"keywords": ["metal", "leathery"],
         "material": "Métal/Cuir"
     },
     "IADwarvenMageLRobe": {
-    	"keywords": ["Métallique", "Cuir"],
+    	"keywords": ["metal", "leathery"],
         "material": "Métal/Cuir"
     },
     "IADwarvenMageURobe": {
-    	"keywords": ["Métallique", "Cuir"],
+    	"keywords": ["metal", "leathery"],
         "material": "Métal/Cuir"
     },
     "IAPrimitiveNordHeavyCuirass": {
-    	"keywords": ["Métallique"],
+    	"keywords": ["metal"],
         "material": "Métal"
     },
     "IAPrimitiveNordLightCuirass": {
-    	"keywords": ["Métallique"],
+    	"keywords": ["metal"],
         "material": "Métal"
     },
     "IABarbarianCuirass": {
-    	"keywords": ["Métallique"],
+    	"keywords": ["metal"],
         "material": "Métal"
     },
     "IARangerCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IASeadogCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IAPaladinCuirass": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "IAHeroicStormcloakCuirass": {
-    	"keywords": ["Réchauffante", "Métallique", "Profonde"],
+    	"keywords": ["warm", "metal", "deep"],
         "material": "Métal/Fourrure",
         "construction": "Profonde"
     },
     "IAApotheusCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IAWitchplateCuirass": {
-    	"keywords": ["Métallique", "Épaisse"],
+    	"keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "IASpellbinderCrimsonCuirass": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "IASpellbinderRunicCuirass": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "IARitualBoethiahCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"],
+    	"keywords": ["nonconductive", "brittle", "layered"],
         "material": "Verre",
         "construction": "En couches"
     },
     "IADragonEbonBulkyCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Os",
         "construction": "Épaisse"
     },
     "IADragonEbonSleekCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Os",
         "construction": "Épaisse"
     },
     "IATrollbaneHeavyCuirass": {
-    	"keywords": ["Réchauffante", "Cuir", "En couches", "Métallique"],
+    	"keywords": ["warm", "leathery", "layered", "metal"],
         "material": "Cuir/Métal/Fourrure",
         "construction": "En couches"
     },
     "IATrollbaneLightCuirass": {
-    	"keywords": ["Réchauffante", "Cuir", "En couches", "Métallique"],
+    	"keywords": ["warm", "leathery", "layered", "metal"],
         "material": "Cuir/Métal/Fourrure",
         "construction": "En couches"
     },
     "IAShamanLRobe": {
-    	"keywords": ["Réchauffante"],
+    	"keywords": ["warm"],
         "material": "Fourrure"
     },
     "IAShamanURobe": {
-    	"keywords": ["Réchauffante"],
+    	"keywords": ["warm"],
         "material": "Fourrure"
     },
     "IADragonKnightCuirassFull": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Verre/Os",
         "construction": "Épaisse"
     },
     "IADragonKnightCuirassFox": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Verre/Os",
         "construction": "Épaisse"
     },
     "IAConanCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IACrimsonArcherCuirass": {
-    	"keywords": ["Réchauffante", "Cuir", "En couches"],
+    	"keywords": ["warm", "leathery", "layered"],
         "material": "Cuir/Fourrure",
         "construction": "En couches"
     },
     "IABrigandDwemerScrap": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "IABrigandHighwayChain": {
-    	"keywords": ["Métallique", "En couches"],
+    	"keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "IABrigandIronHide": {
-    	"keywords": ["Réchauffante", "Métallique", "Épaisse"],
+    	"keywords": ["warm", "metal", "thick"],
         "material": "Métal/Fourrure",
         "construction": "Épaisse"
     },
     "IAAlduinCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Os",
         "construction": "Épaisse"
     },
     "IARingmailCuirass": {
-    	"keywords": ["Métallique", "En couches"],
+    	"keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "IABoiledChitineHCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "IABoiledChitineLCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "IASnowBearCuirass": {
-    	"keywords": ["Réchauffante", "Cuir", "En couches"],
+    	"keywords": ["warm", "leathery", "layered"],
         "material": "Cuir/Fourrure",
         "construction": "En couches"
     },
     "IAGlacialCrystalHCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"],
+    	"keywords": ["nonconductive", "brittle", "layered"],
         "material": "Stalhrim",
         "construction": "En couches"
     },
     "IAGlacialCrystalLCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"],
+    	"keywords": ["nonconductive", "brittle", "layered"],
         "material": "Stalhrim",
         "construction": "En couches"
     },
     "IAVvardenfellVerreCuirass": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+    	"keywords": ["nonconductive", "brittle", "thick"],
         "material": "Verre",
         "construction": "Épaisse"
     },
     "IABosmerCuirass": {
-    	"keywords": ["Cuir"],
+    	"keywords": ["leathery"],
         "material": "Cuir"
     },
     "IABosmerEngravedCuirass": {
-    	"keywords": ["Cuir", "En couches"],
+    	"keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "IABosmerHeavyCuirass": {
-    	"keywords": ["Cuir", "En couches"],
+    	"keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "IABosmerHuntHeavyCuirass": {
-    	"keywords": ["Cuir", "En couches"],
+    	"keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "IABosmerHuntLightCuirass": {
-    	"keywords": ["Cuir", "En couches"],
+    	"keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "IADaedricLordCuirass": {
-    	"keywords": ["Non-conducteur", "Épaisse", "Fragile"],
+    	"keywords": ["nonconductive", "thick", "brittle"],
         "material": "Verre",
         "construction": "Épaisse"
     },
     "IAEbonyMageHeavyRobe": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"]
+    	"keywords": ["nonconductive", "brittle", "layered"]
     },
     "IAEbonyMageLightRobe": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"]
+    	"keywords": ["nonconductive", "brittle", "layered"]
     },
     "IAEbonyMageUnarmoredRobe": {
-    	"keywords": ["Non-conducteur", "Fragile", "En couches"]
+    	"keywords": ["nonconductive", "brittle", "layered"]
     },
     "IAStormlordCuirass": {
-    	"keywords": ["Métallique", "Réchauffante", "Profonde"],
+    	"keywords": ["metal", "warm", "deep"],
         "material": "Métal/Fourrure",
         "construction": "Profonde"
     },
     "IAImperialKnightCuirass": {
-    	"keywords": ["Métallique", "Profonde"],
+    	"keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
 	"ArmorMaterialBearStormcloak": {
-		"keywords": ["Réchauffante", "Cuir", "En couches"],
+		"keywords": ["warm", "leathery", "layered"],
 		"material": "Fourrure/Cuir",
 		"construction": "En couches"
 	},
 	"ArmorMaterialBlades": {
-        "keywords": ["Métallique", "En couches"],
+        "keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "ArmorMaterialDaedric": {
-        "keywords": ["Non-conducteur", "Fragile", "Épaisse"],
+        "keywords": ["nonconductive", "brittle", "thick"],
         "material": "Verre",
         "construction": "Épaisse"
     },
     "ArmorMaterialDragonplate": {
-    	"keywords": ["Non-conducteur", "Fragile", "Épaisse", "Profonde"],
+    	"keywords": ["nonconductive", "brittle", "thick", "deep"],
         "material": "Os",
         "construction": "Profonde/Épaisse"
     },
     "ArmorMaterialDragonscale": {
-        "keywords": ["Non-conducteur", "En couches", "Épaisse"],
+        "keywords": ["nonconductive", "layered", "thick"],
         "material": "Verre",
         "construction": "Épaisse/En couches"
     },
     "ArmorMaterialDwarven": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "ArmorMaterialEbony": {
-        "keywords": ["Non-conducteur", "Fragile", "Profonde"],
+        "keywords": ["nonconductive", "brittle", "deep"],
         "material": "Verre",
         "construction": "Profonde"
     },
     "ArmorMaterialElven": {
-        "keywords": ["Non-conducteur", "Fragile", "En couches"],
+        "keywords": ["nonconductive", "brittle", "layered"],
         "material": "Verre",
         "construction": "En couches"
     },
     "ArmorMaterialElvenGilded": {
-        "keywords": ["Non-conducteur", "Fragile", "En couches"],
+        "keywords": ["nonconductive", "brittle", "layered"],
         "material": "Verre",
         "construction": "En couches"
     },
     "ArmorMaterialFalmer": {
-        "keywords": ["Épaisse", "Fragile"],
+        "keywords": ["thick", "brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC1ArmorMaterielFalmerHeavyOriginal": {
-        "keywords": ["Épaisse", "Fragile"],
+        "keywords": ["thick", "brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "ArmorMaterialForsworn": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorMaterialVerre": {
-        "keywords": ["Épaisse", "Non-conducteur", "Fragile"],
+        "keywords": ["thick", "nonconductive", "brittle"],
         "material": "Verre",
         "construction": "Épaisse"
     },
     "ArmorMaterialHide": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorMaterialImperialHeavy": {
-        "keywords": ["Métallique", "En couches"],
+        "keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "ArmorMaterialImperialLight": {
-        "keywords": ["Cuir", "En couches"],
+        "keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "ArmorMaterialImperialStudded": {
-        "keywords": ["Cuir", "En couches"],
+        "keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "ArmorMaterialIron": {
-        "keywords": ["Métallique", "Épaisse"],
+        "keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "ArmorMaterialIronBanded": {
-        "keywords": ["Métallique", "Réchauffante", "Épaisse"],
+        "keywords": ["metal", "warm", "thick"],
         "material": "Métal/Fourrure",
         "construction": "Épaisse"
     },
     "ArmorMaterialCuir": {
-        "keywords": ["Cuir", "En couches"],
+        "keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "ArmorMaterialMS02Forsworn": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorMaterialOrcish": {
-        "keywords": ["Métallique", "En couches"],
+        "keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "ArmorMaterialPenitus": {
-        "keywords": ["Métallique", "En couches"],
+        "keywords": ["metal", "layered"],
         "material": "Métal",
         "construction": "En couches"
     },
     "ArmorMaterialScaled": {
-        "keywords": ["Réchauffante", "Cuir", "En couches"],
+        "keywords": ["warm", "leathery", "layered"],
         "material": "Fourrure/Cuir",
         "construction": "En couches"
     },
     "ArmorMaterialSteel": {
-        "keywords": ["Métallique", "Réchauffante", "Épaisse"],
+        "keywords": ["metal", "warm", "thick"],
         "material": "Métal/Fourrure",
         "construction": "Épaisse"
     },
     "ArmorMaterialSteelPlate": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "ArmorMaterialStormcloak": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorMaterialStudded": {
-        "keywords": ["Cuir", "En couches"],
+        "keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "ArmorMaterialThievesGuild": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorMaterialThievesGuildLeader": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "DLC1ArmorMaterialDawnguard": {
-        "keywords": ["Cuir", "En couches"],
+        "keywords": ["leathery", "layered"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "DLC1ArmorMaterialFalmerHardened": {
-        "keywords": ["Épaisse", "Fragile"],
+        "keywords": ["thick", "brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC1ArmorMaterialHunter": {
-        "keywords": ["En couches", "Cuir"],
+        "keywords": ["layered", "leathery"],
         "material": "Cuir",
         "construction": "En couches"
     },
     "DLC1ArmorMaterielFalmerHeavy": {
-        "keywords": ["Fragile"],
+        "keywords": ["brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC1ArmorMaterialFalmerHeavyOriginal": {
-        "keywords": ["Fragile"],
+        "keywords": ["brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC2ArmorMaterialOsmoldHeavy": {
-        "keywords": ["Épaisse", "Non-conducteur"],
+        "keywords": ["thick", "nonconductive"],
         "material": "Os",
         "construction": "Épaisse/En couches"
     },
     "DLC2ArmorMaterialOsmoldLight": {
-        "keywords": ["Épaisse", "Non-conducteur"],
+        "keywords": ["thick", "nonconductive"],
         "material": "Os",
         "construction": "Épaisse/En couches"
     },
     "DLC2ArmorMaterialChitineHeavy": {
-        "keywords": ["Épaisse", "Fragile"],
+        "keywords": ["thick", "brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC2ArmorMaterialChitineLight": {
-        "keywords": ["Épaisse", "Fragile"],
+        "keywords": ["thick", "brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC2ArmorMaterialMoragTong": {
-        "keywords": ["Épaisse", "Fragile"],
+        "keywords": ["thick", "brittle"],
         "material": "Chitine",
         "construction": "Épaisse"
     },
     "DLC2ArmorMaterialNordicHeavy": {
-        "keywords": ["Métallique", "Cuir", "En couches"],
+        "keywords": ["metal", "leathery", "layered"],
         "material": "Métal/Cuir",
         "construction": "En couches"
     },
     "DLC2ArmorMaterialNordicLight": {
-        "keywords": ["Métallique", "Cuir", "En couches"],
+        "keywords": ["metal", "leathery", "layered"],
         "material": "Métal/Cuir",
         "construction": "En couches"
     },
     "DLC2ArmorMaterialStalhrimHeavy": {
-        "keywords": ["Épaisse", "Réchauffante", "Non-conducteur"],
+        "keywords": ["thick", "warm", "nonconductive"],
         "material": "Stalhrim/Fourrure",
         "construction": "Épaisse"
     },
     "DLC2ArmorMaterialStalhrimLight": {
-        "keywords": ["Épaisse", "Réchauffante", "Non-conducteur"],
+        "keywords": ["thick", "warm", "nonconductive"],
         "material": "Stalhrim/Fourrure",
         "construction": "Épaisse"
     },
     "ArmorBrigand1": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorBrigand2": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand3": {
-        "keywords": ["Métallique", "Épaisse"],
+        "keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "ArmorBrigand4": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand5": {
-        "keywords": ["Métallique", "Cuir"],
+        "keywords": ["metal", "leathery"],
         "material": "Métal/Cuir"
     },
     "ArmorBrigand6": {
-        "keywords": ["Réchauffante", "Cuir"],
+        "keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "ArmorBrigand7": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand8": {
-        "keywords": ["Réchauffante", "Cuir"],
+        "keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "ArmorBrigand9": {
-        "keywords": ["Réchauffante", "Épaisse"],
+        "keywords": ["warm", "thick"],
         "material": "Fourrure",
         "construction": "Épaisse"
     },
     "ArmorBrigand10": {
-        "keywords": ["Métallique", "Réchauffante", "Épaisse"],
+        "keywords": ["metal", "warm", "thick"],
         "material": "Métal/Fourrure",
         "construction": "Épaisse"
     },
     "ArmorBrigand11": {
-        "keywords": ["Métallique", "Cuir"],
+        "keywords": ["metal", "leathery"],
         "material": "Métal/Cuir"
     },
     "ArmorBrigand12": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     "ArmorBrigand13": {
-        "keywords": ["Métallique", "Cuir"],
+        "keywords": ["metal", "leathery"],
         "material": "Métal/Cuir"
     },
     "ArmorBrigand14": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand15": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorBrigand16": {
-        "keywords": ["Réchauffante", "Cuir"],
+        "keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "ArmorBrigand17": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand18": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorBrigand19": {
-        "keywords": ["Réchauffante", "Épaisse"],
+        "keywords": ["warm", "thick"],
         "material": "Fourrure",
         "construction": "Épaisse"
     },
     "ArmorBrigand20": {
-        "keywords": ["Métallique", "Épaisse"],
+        "keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "ArmorBrigand21": {
-        "keywords": ["Réchauffante", "Métallique", "Épaisse"],
+        "keywords": ["warm", "metal", "thick"],
         "material": "Métal/Fourrure",
         "construction": "Épaisse"
     },
     "ArmorBrigand22": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand23": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorBrigand24": {
-        "keywords": ["Réchauffante"],
+        "keywords": ["warm"],
         "material": "Fourrure"
     },
     "ArmorBrigand25": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand26": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand27": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand28": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand29": {
-        "keywords": ["Réchauffante", "Cuir"],
+        "keywords": ["warm", "leathery"],
         "material": "Fourrure/Cuir"
     },
     "ArmorBrigand30": {
-        "keywords": ["Réchauffante", "Cuir", "En couches"],
+        "keywords": ["warm", "leathery", "layered"],
         "material": "Fourrure/Cuir",
         "construction": "En couches"
     },
     "ArmorBrigand31": {
-        "keywords": ["Métallique"],
+        "keywords": ["metal"],
         "material": "Métal"
     },
     "ArmorBrigand32": {
-        "keywords": ["Métallique", "Épaisse"],
+        "keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "ArmorBrigand33": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand34": {
-        "keywords": ["Métallique"],
+        "keywords": ["metal"],
         "material": "Métal"
     },
     "ArmorBrigand35": {
-        "keywords": ["Cuir"],
+        "keywords": ["leathery"],
         "material": "Cuir"
     },
     "ArmorBrigand36": {
-        "keywords": ["Métallique", "Épaisse"],
+        "keywords": ["metal", "thick"],
         "material": "Métal",
         "construction": "Épaisse"
     },
     "AA00ArmorDECuirass": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass1": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass2": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass3": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass4": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass5": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass6": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass7": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass8": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     },
     " AA00ArmorDFGKCuirass9": {
-        "keywords": ["Métallique", "Profonde"],
+        "keywords": ["metal", "deep"],
         "material": "Métal",
         "construction": "Profonde"
     }
