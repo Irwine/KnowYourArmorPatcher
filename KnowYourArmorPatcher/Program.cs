@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,15 +44,15 @@ namespace KnowYourArmorPatcher
 
         private static readonly Dictionary<string, IFormLinkGetter<IKeywordGetter>> armorKeywords = new()
         {
-            { "Complète", KnowYourEnemy.Keyword.kye_armor_Complète },
-            { "Réchauffante", KnowYourEnemy.Keyword.kye_armor_Réchauffante },
-            { "Cuir", KnowYourEnemy.Keyword.kye_armor_Cuir },
-            { "Fragile", KnowYourEnemy.Keyword.kye_armor_Fragile },
-            { "Non-conducteur", KnowYourEnemy.Keyword.kye_armor_Non-conducteur },
-            { "Épaisse", KnowYourEnemy.Keyword.kye_armor_Épaisse },
-            { "Métallique", KnowYourEnemy.Keyword.kye_armor_Métallique },
-            { "En couches", KnowYourEnemy.Keyword.kye_armor_Encouches },
-            { "Profonde", KnowYourEnemy.Keyword.kye_armor_Profonde },
+            { "full", KnowYourEnemy.Keyword.kye_armor_full },
+            { "warm", KnowYourEnemy.Keyword.kye_armor_warm },
+            { "leathery", KnowYourEnemy.Keyword.kye_armor_leathery },
+            { "brittle", KnowYourEnemy.Keyword.kye_armor_brittle },
+            { "nonconductive", KnowYourEnemy.Keyword.kye_armor_nonconductive },
+            { "thick", KnowYourEnemy.Keyword.kye_armor_thick },
+            { "metal", KnowYourEnemy.Keyword.kye_armor_metal },
+            { "layered", KnowYourEnemy.Keyword.kye_armor_layered },
+            { "deep", KnowYourEnemy.Keyword.kye_armor_deep },
         };
 
         private static void QuickAppend(StringBuilder description, string name, float num)
@@ -90,7 +90,7 @@ namespace KnowYourArmorPatcher
                         wind = 1;
 
                     string[] keywords = ((JArray)(armorRulesJson[recordEDID]!["keywords"]!)).ToObject<string[]>()!;
-                    if (keywords.Contains("Réchauffante"))
+                    if (keywords.Contains("warm"))
                     {
                         arrows *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         frost *= AdjustEffectMagnitude(0.5f, effectIntensity);
@@ -98,33 +98,33 @@ namespace KnowYourArmorPatcher
                         wind *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
 
-                    if (keywords.Contains("Cuir"))
+                    if (keywords.Contains("leathery"))
                     {
                         arrows *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         fire *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         wind *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         water *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("Fragile"))
+                    if (keywords.Contains("brittle"))
                     {
                         blunt *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         water *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         earth *= AdjustEffectMagnitude(1.25f, effectIntensity);
                     }
-                    if (keywords.Contains("Non-conducteur"))
+                    if (keywords.Contains("nonconductive"))
                     {
                         shock *= AdjustEffectMagnitude(0.25f, effectIntensity);
                         fire *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         frost *= AdjustEffectMagnitude(1.25f, effectIntensity);
                         water *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("Épaisse"))
+                    if (keywords.Contains("thick"))
                     {
                         arrows *= AdjustEffectMagnitude(0.5f, effectIntensity);
                         blade *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         wind *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("Métallique"))
+                    if (keywords.Contains("metal"))
                     {
                         arrows *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         blade *= AdjustEffectMagnitude(0.75f, effectIntensity);
@@ -132,12 +132,12 @@ namespace KnowYourArmorPatcher
                         earth *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         water *= AdjustEffectMagnitude(1.25f, effectIntensity);
                     }
-                    if (keywords.Contains("En couches"))
+                    if (keywords.Contains("layered"))
                     {
                         arrows *= AdjustEffectMagnitude(0.75f, effectIntensity);
                         wind *= AdjustEffectMagnitude(0.75f, effectIntensity);
                     }
-                    if (keywords.Contains("Profonde"))
+                    if (keywords.Contains("deep"))
                     {
                         blunt *= AdjustEffectMagnitude(0.5f, effectIntensity);
                         axe *= AdjustEffectMagnitude(0.75f, effectIntensity);
@@ -163,7 +163,7 @@ namespace KnowYourArmorPatcher
                     if (description[description.Length - 1] == ',') description[description.Length - 1] = '.';
                 }
             }
-            return Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(description.ToString()));
+            return description.ToString();
         }
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
@@ -188,8 +188,6 @@ namespace KnowYourArmorPatcher
             if (!requiredFiles.SequenceEqual(foundFiles))
                 throw new Exception("Missing required files! Make sure to copy all files over when installing the patcher, and don't run it from within an archive.");
 
-            Console.WriteLine("Fichier charge : " + requiredFiles[0]);
-            
             var armorRulesJson = JObject.Parse(File.ReadAllText(requiredFiles[0]));
             var miscJson = JObject.Parse(File.ReadAllText(requiredFiles[1]));
             //var settingsJson = JObject.Parse(File.ReadAllText(requiredFiles[2]));
@@ -198,8 +196,8 @@ namespace KnowYourArmorPatcher
             List<string> armorRaces = GetFromJson("armor_races", miscJson).ToList();
             List<string> ignoredArmors = GetFromJson("ignored_armors", miscJson).ToList();
 
-            float effectIntensity = _settings.Value.IntensiteDeLEffet;
-            bool patchArmorDescriptions = _settings.Value.ModifierLesDescriptions;
+            float effectIntensity = _settings.Value.EffectIntensity;
+            bool patchArmorDescriptions = _settings.Value.PatchArmorDescriptions;
 
             Console.WriteLine("*** DETECTED SETTINGS ***");
             Console.WriteLine("patch_armor_descriptions: " + patchArmorDescriptions);
