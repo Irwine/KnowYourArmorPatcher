@@ -197,10 +197,10 @@ namespace KnowYourArmorPatcher
             List<string> ignoredArmors = GetFromJson("ignored_armors", miscJson).ToList();
 
             float IntensiteDeLEffet = _settings.Value.EffectIntensity;
-            bool ModifierDescriptionsArmures = _settings.Value.PatchArmorDescriptions;
+            bool ModifierLesDescriptions = _settings.Value.PatchArmorDescriptions;
 
             Console.WriteLine("*** DETECTED SETTINGS ***");
-            Console.WriteLine("patch_armor_descriptions: " + ModifierDescriptionsArmures);
+            Console.WriteLine("patch_armor_descriptions: " + ModifierLesDescriptions);
             Console.WriteLine("effect_intensity: " + IntensiteDeLEffet);
             Console.WriteLine("*************************");
 
@@ -290,7 +290,7 @@ namespace KnowYourArmorPatcher
                         if (!armorKeywordsToAdd.Contains(keywordToAdd))
                             armorKeywordsToAdd.Add(keywordToAdd);
                     }
-                    if (ModifierDescriptionsArmures)
+                    if (ModifierLesDescriptions)
                     {
                         string desc = GenerateDescription(state, foundEDID, armorRulesJson, IntensiteDeLEffet);
                         if (!String.IsNullOrEmpty(desc))
@@ -325,7 +325,7 @@ namespace KnowYourArmorPatcher
 
                     }
 
-                    if (ModifierDescriptionsArmures)
+                    if (ModifierLesDescriptions)
                     {
                         var desc = GenerateDescription(state, armor.EditorID, armorRulesJson, IntensiteDeLEffet);
                         if (!String.IsNullOrEmpty(desc))
