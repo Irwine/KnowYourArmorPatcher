@@ -11,6 +11,7 @@ using Newtonsoft.Json.Linq;
 using System.Text;
 using System.Globalization;
 using System.Threading.Tasks;
+using Mutagen.Bethesda.Plugins;
 
 namespace KnowYourArmorPatcher
 {
