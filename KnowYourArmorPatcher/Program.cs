@@ -165,7 +165,7 @@ namespace KnowYourArmorPatcher
             }
             //return description.ToString();
             //return Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(description.ToString()));
-            return Encoding.GetEncoding("UTF8").GetString(description.ToString());
+            return Encoding.GetEncoding("UTF8").GetString(GetBytes(description.ToString()));
         }
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
