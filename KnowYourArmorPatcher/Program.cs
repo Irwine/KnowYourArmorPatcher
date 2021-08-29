@@ -163,8 +163,8 @@ namespace KnowYourArmorPatcher
                     if (description[description.Length - 1] == ',') description[description.Length - 1] = '.';
                 }
             }
-            //return description.ToString();
-            return Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(description.ToString()));
+            return description.ToString();
+            //return Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.UTF8.GetBytes(description.ToString()));
         }
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
