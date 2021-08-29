@@ -44,15 +44,15 @@ namespace KnowYourArmorPatcher
 
         private static readonly Dictionary<string, IFormLinkGetter<IKeywordGetter>> armorKeywords = new()
         {
-            { "Complète", KnowYourEnemy.Keyword.kye_armor_full },
-            { "Réchauffante", KnowYourEnemy.Keyword.kye_armor_warm },
-            { "Cuir", KnowYourEnemy.Keyword.kye_armor_leathery },
-            { "Fragile", KnowYourEnemy.Keyword.kye_armor_brittle },
-            { "Non-conducteur", KnowYourEnemy.Keyword.kye_armor_nonconductive },
-            { "Épaisse", KnowYourEnemy.Keyword.kye_armor_thick },
-            { "Métallique", KnowYourEnemy.Keyword.kye_armor_metal },
-            { "En couches", KnowYourEnemy.Keyword.kye_armor_layered },
-            { "Profonde", KnowYourEnemy.Keyword.kye_armor_deep },
+            { "Complète", KnowYourEnemy.Keyword.kye_armor_Complète },
+            { "Réchauffante", KnowYourEnemy.Keyword.kye_armor_Réchauffante },
+            { "Cuir", KnowYourEnemy.Keyword.kye_armor_Cuir },
+            { "Fragile", KnowYourEnemy.Keyword.kye_armor_Fragile },
+            { "Non-conducteur", KnowYourEnemy.Keyword.kye_armor_Non-conducteur },
+            { "Épaisse", KnowYourEnemy.Keyword.kye_armor_Épaisse },
+            { "Métallique", KnowYourEnemy.Keyword.kye_armor_Métallique },
+            { "En couches", KnowYourEnemy.Keyword.kye_armor_Encouches },
+            { "Profonde", KnowYourEnemy.Keyword.kye_armor_Profonde },
         };
 
         private static void QuickAppend(StringBuilder description, string name, float num)
