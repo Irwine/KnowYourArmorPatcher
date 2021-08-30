@@ -246,6 +246,14 @@ namespace KnowYourArmorPatcher
                 if (npc.Race.TryResolve(state.LinkCache, out var race) && race.EditorID != null && armorRaces.Contains(race.EditorID))
                 {
                     var npcCopy = state.PatchMod.Npcs.GetOrAddAsOverride(npc);
+                    
+                    if (npcCopy.Name != null && npcCopy.Name.TryLookup(Language.French, out string i18nNpcName)) {
+                        npcCopy.Name = i18nNpcName;
+                    }
+                    if (npcCopy.ShortName != null && npcCopy.ShortName.TryLookup(Language.French, out string i18nNpcShortName)) {
+                        npcCopy.ShortName = i18nNpcShortName;
+                    }
+
                     if (npcCopy.Perks == null) npcCopy.Perks = new ExtendedList<PerkPlacement>();
                     PerkPlacement p = new PerkPlacement
                     {
