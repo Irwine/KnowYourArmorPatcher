@@ -1,8 +1,4 @@
-# Know Your Armor Patcher
-
-Avec celui-ci les joueurs francophones auront les description des armures ajoutées par le patch en français (fourrure au lieu de fur etc.)
-
-## KnowYourArmorPatcher
+# KnowYourArmorPatcher
 Le patcher mutagène remplace celui de zEdit avec de meilleurs performances et étant capable de gérer se lancer avec plus de 255 plugins.
 
 ### Paramètres
