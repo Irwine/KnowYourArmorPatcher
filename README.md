@@ -6,7 +6,7 @@ Avec celui-ci les joueurs francophones auront les description des armures ajout�
 Le patcheur mutagène remplace celui de zEdit avec de meilleurs performances et étant capable de gérer se lancer avec plus de 255 plugins.
 
 ### Paramètres
-Les paramètres peuvent être configurer via le `settings.json` accessible dans l'autre onglet de l'exécutable.
+Les paramètres peuvent être configurer via l'onglet settings de Synthesis.
 - Intensite De L Effet : Plus l'intensité de l'effet est élevée, plus les résistances et faiblesses des armures seront importantes.
 - Modifier Les Descriptions : Patch les descriptions des armures afin qu'elles affichent l'intensité de leurs effets.
 
