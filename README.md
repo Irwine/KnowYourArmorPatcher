@@ -1,4 +1,4 @@
-# KnowYourArmorPatcher
+# Know Your Armor Patcher
 Le patcher mutagène remplace celui de zEdit avec de meilleurs performances et étant capable de gérer se lancer avec plus de 255 plugins.
 
 ### Paramètres
