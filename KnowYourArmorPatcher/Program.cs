@@ -60,7 +60,7 @@ namespace KnowYourArmorPatcher
             // The en-US is to make the whole numbers and decimals split with a . instead of a ,
             if (num != 1) description.Append(" " + name + " x" + Math.Round(num, 2).ToString(new CultureInfo("en-US")) + ",");
         }
-        private static string GenerateDescription(IPatcherState<ISkyrimMod, ISkyrimModGetter> state, string recordEDID, JObject armorRulesJson, float IntensiteDeLEffet)
+        private static string GenerateDescription(IPatcherState<ISkyrimMod, ISkyrimModGetter> state, string recordEDID, JObject armorRulesJson, float EffectIntensity)
         {
             StringBuilder description = new StringBuilder();
             if (armorRulesJson[recordEDID] != null)
@@ -92,56 +92,56 @@ namespace KnowYourArmorPatcher
                     string[] keywords = ((JArray)(armorRulesJson[recordEDID]!["keywords"]!)).ToObject<string[]>()!;
                     if (keywords.Contains("warm"))
                     {
-                        arrows *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        frost *= AdjustEffectMagnitude(0.5f, IntensiteDeLEffet);
-                        water *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        wind *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
+                        arrows *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        frost *= AdjustEffectMagnitude(0.5f, EffectIntensity);
+                        water *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        wind *= AdjustEffectMagnitude(0.75f, EffectIntensity);
                     }
 
                     if (keywords.Contains("leathery"))
                     {
-                        arrows *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        fire *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        wind *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        water *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
+                        arrows *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        fire *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        wind *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        water *= AdjustEffectMagnitude(0.75f, EffectIntensity);
                     }
                     if (keywords.Contains("brittle"))
                     {
-                        blunt *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        water *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        earth *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
+                        blunt *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        water *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        earth *= AdjustEffectMagnitude(1.25f, EffectIntensity);
                     }
                     if (keywords.Contains("nonconductive"))
                     {
-                        shock *= AdjustEffectMagnitude(0.25f, IntensiteDeLEffet);
-                        fire *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        frost *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        water *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
+                        shock *= AdjustEffectMagnitude(0.25f, EffectIntensity);
+                        fire *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        frost *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        water *= AdjustEffectMagnitude(0.75f, EffectIntensity);
                     }
                     if (keywords.Contains("thick"))
                     {
-                        arrows *= AdjustEffectMagnitude(0.5f, IntensiteDeLEffet);
-                        blade *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        wind *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
+                        arrows *= AdjustEffectMagnitude(0.5f, EffectIntensity);
+                        blade *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        wind *= AdjustEffectMagnitude(0.75f, EffectIntensity);
                     }
                     if (keywords.Contains("metal"))
                     {
-                        arrows *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        blade *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        shock *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
-                        earth *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        water *= AdjustEffectMagnitude(1.25f, IntensiteDeLEffet);
+                        arrows *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        blade *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        shock *= AdjustEffectMagnitude(1.25f, EffectIntensity);
+                        earth *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        water *= AdjustEffectMagnitude(1.25f, EffectIntensity);
                     }
                     if (keywords.Contains("layered"))
                     {
-                        arrows *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        wind *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
+                        arrows *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        wind *= AdjustEffectMagnitude(0.75f, EffectIntensity);
                     }
                     if (keywords.Contains("deep"))
                     {
-                        blunt *= AdjustEffectMagnitude(0.5f, IntensiteDeLEffet);
-                        axe *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
-                        earth *= AdjustEffectMagnitude(0.75f, IntensiteDeLEffet);
+                        blunt *= AdjustEffectMagnitude(0.5f, EffectIntensity);
+                        axe *= AdjustEffectMagnitude(0.75f, EffectIntensity);
+                        earth *= AdjustEffectMagnitude(0.75f, EffectIntensity);
                     }
                     QuickAppend(description, "Feu", fire);
                     QuickAppend(description, "Glace", frost);
@@ -198,12 +198,12 @@ namespace KnowYourArmorPatcher
             List<string> armorRaces = GetFromJson("armor_races", miscJson).ToList();
             List<string> ignoredArmors = GetFromJson("ignored_armors", miscJson).ToList();
 
-            float IntensiteDeLEffet = _settings.Value.IntensiteDeLEffet;
-            bool ModifierLesDescriptions = _settings.Value.ModifierLesDescriptions;
+            float EffectIntensity = _settings.Value.EffectIntensity;
+            bool PatchArmorDescriptions = _settings.Value.PatchArmorDescriptions;
 
             Console.WriteLine("*** DETECTED SETTINGS ***");
-            Console.WriteLine("patch_armor_descriptions: " + ModifierLesDescriptions);
-            Console.WriteLine("effect_intensity: " + IntensiteDeLEffet);
+            Console.WriteLine("patch_armor_descriptions: " + PatchArmorDescriptions);
+            Console.WriteLine("effect_intensity: " + EffectIntensity);
             Console.WriteLine("*************************");
 
             if (!KnowYourEnemy.Perk.kye_perk_armors2.TryResolve(state.LinkCache, out var perkLink))
@@ -265,15 +265,15 @@ namespace KnowYourArmorPatcher
             }
 
             // Part 2
-            // Adjust the magnitude of KYE's effects according to the IntensiteDeLEffet settings
-            if (!IntensiteDeLEffet.EqualsWithin(1))
+            // Adjust the magnitude of KYE's effects according to the EffectIntensity settings
+            if (!EffectIntensity.EqualsWithin(1))
             {
                 var perk = state.PatchMod.Perks.GetOrAddAsOverride(perkLink);
                 foreach (var eff in perk.Effects)
                 {
                     if (eff is not PerkEntryPointModifyValue epValue) continue;
                     if (epValue.EntryPoint == APerkEntryPointEffect.EntryType.ModIncomingDamage || epValue.EntryPoint == APerkEntryPointEffect.EntryType.ModIncomingSpellMagnitude)
-                        epValue.Value = AdjustEffectMagnitude(epValue.Value ?? 0.0f, IntensiteDeLEffet);
+                        epValue.Value = AdjustEffectMagnitude(epValue.Value ?? 0.0f, EffectIntensity);
                 }
             }
 
@@ -300,9 +300,9 @@ namespace KnowYourArmorPatcher
                         if (!armorKeywordsToAdd.Contains(keywordToAdd))
                             armorKeywordsToAdd.Add(keywordToAdd);
                     }
-                    if (ModifierLesDescriptions)
+                    if (PatchArmorDescriptions)
                     {
-                        string desc = GenerateDescription(state, foundEDID, armorRulesJson, IntensiteDeLEffet);
+                        string desc = GenerateDescription(state, foundEDID, armorRulesJson, EffectIntensity);
                         if (!String.IsNullOrEmpty(desc))
                         {
                             if (armorCopy.Description?.String.IsNullOrEmpty() ?? true)
@@ -335,9 +335,9 @@ namespace KnowYourArmorPatcher
 
                     }
 
-                    if (ModifierLesDescriptions)
+                    if (PatchArmorDescriptions)
                     {
-                        var desc = GenerateDescription(state, armor.EditorID, armorRulesJson, IntensiteDeLEffet);
+                        var desc = GenerateDescription(state, armor.EditorID, armorRulesJson, EffectIntensity);
                         if (!String.IsNullOrEmpty(desc))
                         {
                             if (armorCopy.Description?.String.IsNullOrEmpty() ?? true)
