@@ -291,6 +291,11 @@ namespace KnowYourArmorPatcher
                 List<string> armorKeywordsToAdd = new List<string>();
 
                 var armorCopy = state.PatchMod.Armors.GetOrAddAsOverride(armor);
+                
+                if (armorCopy.Name != null && armorCopy.Name.TryLookup(Language.French, out string i18nArmorName)) {
+                    armorCopy.Name = i18nArmorName;
+                }
+                
                 var origDescription = armorCopy.Description;
                 foreach (string foundEDID in foundEDIDs)
                 {
