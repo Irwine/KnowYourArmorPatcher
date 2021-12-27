@@ -5,6 +5,7 @@ using System.Linq;
 using Mutagen.Bethesda;
 using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.Skyrim;
+using Mutagen.Bethesda.Strings;
 using Noggog;
 using Mutagen.Bethesda.FormKeys.SkyrimSE;
 using Newtonsoft.Json.Linq;
